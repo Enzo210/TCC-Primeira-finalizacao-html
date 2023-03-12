@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+
+}
+
+.container-pg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: #1f2641;
+    padding-bottom: 70px;
+}
+
+.container-pg form{
+    padding: 20px;
+    width: 700px;
+    background: rgb(139, 82, 255);
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+    border-radius: 3%;
+}
+::-webkit-input-placeholder{
+    color: #424890;
+  }
+
+.container-pg form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container-pg form .row .col{
+    flex: 1 1 250px;
+}
+
+.container-pg form .row .col .title{
+    font-size: 20px;
+    color: rgb(80, 165, 230);
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container-pg form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.container-pg form .row .col .inputBox span{
+    margin-bottom: 2px;
+    display: block;
+}
+
+.container-pg form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container-pg form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .container-pg form .row .col .flex{
+    display: flex;
+    gap:10px;
+  }
+  
+  .container-pg form .row .col .flex .inputBox{
+    margin-top: 4.1px;
+  }
+  
+  .container-pg form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
+  
+  .container-pg form .submit-btn{
+    width: 100%;
+    padding:12px;
+    font-size: 17px;
+    background: rgb(255, 85, 191);
+    color:#fff;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .container-pg form .submit-btn:hover{
+    background: rgb(255, 16, 163);
+  }

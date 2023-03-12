@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Chance</title>
+
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/login.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAVEGADOR -->
+    <nav>
+            
+        <div class="container nav_container">
+            
+            <a href="Index.html"><h4>HAIR CHANCE</h4></a>
+            
+            <ul id="nav_menu" class="nav_menu">
+                
+                <li><a href="./View/instrucoes.txt">Serviços</a></li>
+                
+                <li><a href="./View/Contato.html">Contato</a></li>
+
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="./View/instrucoes.txt">Perfil</a>
+                    <a href="./View/instrucoes.txt">Agenda</a>
+                </div>
+
+                <li><i id="user" class="uil uil-user" style="font-size:30px;cursor:pointer" onclick="openNav()"></i></li>
+            
+            </ul>
+        
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+        
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+    
+        </div> 
+
+    </nav>
+
+    <div class="container-login">
+        <input type="checkbox" id="flip">
+        <div class="cover">
+          <div class="front">
+            <img src="../assets/img/login.jpg" alt="Imagem Login">
+            <div class="text-form">
+              <span class="text-1">Cada novo cliente é uma <br> nova aventura</span>
+              <span class="text-2">Vamos nos conectar</span>
+            </div>
+          </div>
+          <div class="back">
+            <img class="backImg" src="../assets/img/register.jpg" alt="Imagem Cadastro">
+            <div class="text-form">
+              <h1 class="text-1">Compelte sua jornada <br> </h1>
+              <h1 class="text-2">Vamos começar</h1>
+            </div>
+          </div>
+        </div>
+        <div class="forms">
+            <div class="form-content">
+              <div class="login-form">
+                <div class="title">Login</div>
+              <form action="#">
+                <div class="input-boxes">
+                  <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Digite seu email" required>
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Digite sua senha" required>
+                  </div>
+                  <div class="text"><a href="#">Esqueceu a senha?</a></div>
+                  <div class="button input-box">
+                    <input type="submit" value="Enviar">
+                  </div>
+                  <div class="text sign-up-text">Não tem uma conta? <label for="flip">Inscreva-se agora</label></div>
+                </div>
+            </form>
+          </div>
+            <div class="signup-form">
+              <div class="title">Inscrever-se</div>
+            <form action="#">
+                <div class="input-boxes">
+                  <div class="input-box">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="Digite seu nome" required>
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-envelope"></i>
+                    <input type="text" placeholder="Digite seu email" required>
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="Digite sua senha" required>
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-book"></i>
+                    <input type="password" placeholder="Digite seu cpf" required>
+                  </div>
+                  <div class="input-box">
+                    <i class="fas fa-phone"></i>
+                    <input type="tel" placeholder="Digite seu numero" required>
+                  </div>
+                  <div class="button input-box">
+                    <input type="submit" value="Enviar">
+                  </div>
+                  <div class="text sign-up-text">Já tem uma conta? <label for="flip">Conecte-se agora</label></div>
+                </div>
+          </form>
+        </div>
+        </div>
+        </div>
+      </div>
+
+     
+
+<script src="../assets/js/main.js"></script>
+    
+</body>
+</html>
